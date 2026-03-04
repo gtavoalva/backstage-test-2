@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: servicio-pedidos
-  description: Gestiona el ciclo de vida de las órdenes de compra de los usuarios. Es mensaje es de prueba
+  description: Gestiona el ciclo de vida de las órdenes de compra de los usuarios. Es mensaje es de prueba. Tarde PM
   annotations:
     github.com/project-slug: gtavoalva/backstage-test-2
     backstage.io/techdocs-ref: dir:.
