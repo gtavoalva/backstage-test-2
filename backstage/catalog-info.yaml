@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: servicio-pedidos
-  description: Gestiona el ciclo de vida de las órdenes de compra de los usuarios.
+  description: Gestiona el ciclo de vida de las órdenes de compra de los usuarios. Es mensaje es de prueba
   annotations:
     github.com/project-slug: mi-organizacion/repo-servicio-pedidos
     backstage.io/techdocs-ref: dir:.
