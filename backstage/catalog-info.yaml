@@ -4,7 +4,7 @@ metadata:
   name: servicio-pedidos
   description: Gestiona el ciclo de vida de las órdenes de compra de los usuarios. Es mensaje es de prueba
   annotations:
-    github.com/project-slug: mi-organizacion/repo-servicio-pedidos
+    github.com/project-slug: gtavoalva/backstage-test-2
     backstage.io/techdocs-ref: dir:.
   tags:
     - nodejs
