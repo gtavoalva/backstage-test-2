@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: servicio-pedidos
+  description: Gestiona el ciclo de vida de las órdenes de compra de los usuarios.
+  annotations:
+    github.com/project-slug: mi-organizacion/repo-servicio-pedidos
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - nodejs
+    - typescript
+    - core
+  links:
+    - title: Swagger API
+      url: https://api.mi-empresa.com/orders/swagger
+spec:
+  type: service
+  lifecycle: production
+  owner: equipo-logistica
+  system: plataforma-ecommerce
+  # RELACIÓN: Este servicio depende del servicio de pagos
+  dependsOn:
+    - component:servicio-pagos
+  # También consume la API que provee el servicio de pagos
+  consumesApi:
+    - nombre: pagos-api-v1
